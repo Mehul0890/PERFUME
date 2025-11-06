@@ -1,0 +1,5 @@
+{
+  "name": "Perfume AI Creative Generator",
+  "description": "Generate multiple high-quality creative images for a perfume product. The uploaded product image must remain unchanged.",
+  "requestFramePermissions": []
+}
