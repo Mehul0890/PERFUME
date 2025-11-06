@@ -6,7 +6,7 @@ const MODEL_NAME = 'gemini-2.5-flash-image';
 // Fix: Per coding guidelines, initialize GoogleGenAI directly with the API key
 // from environment variables, assuming it is always available.
 console.log("process.env.API_KEY",process.env.REACT_APP_API_KEY)
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY! });
+const ai = new GoogleGenAI({ apiKey: process.env.REACT_APP_API_KEY! });
 
 const fileToGenerativePart = (base64Data: string, mimeType: string) => {
     return {
